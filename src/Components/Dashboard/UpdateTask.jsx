@@ -50,7 +50,7 @@ const UpdateTask = () => {
     return (
         <div className="mb-20">
         <h1 className="text-center my-12 uppercase font-bold text-3xl lg:5xl">Update the task</h1>
-        <div data-aos="zoom-in-up" data-aos-duration="2500" className='mt-12 bg-lime-200 shadow-lg rounded-lg p-5'>
+        <div data-aos="zoom-in-up" data-aos-duration="2500" className='mt-12 bg-[rgb(190,255,255)] border-4 border-[#23e6e6] shadow-lg rounded-lg p-5'>
     <form onSubmit={handleSubmit(onSubmit)}>
      
      <div className="flex w-full gap-4 my-6">
@@ -107,7 +107,7 @@ const UpdateTask = () => {
     </div>
             
    
-     <button className="btn bg-gray-200 btn-outline border-orange-500 border-0 border-b-4 mt-4">Book Now</button>
+     <button className="btn bg-gray-200 btn-outline border-orange-500 border-0 border-b-4 mt-4">Update</button>
     </form>
   </div>
     </div>

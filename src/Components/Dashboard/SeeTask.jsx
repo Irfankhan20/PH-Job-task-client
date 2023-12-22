@@ -128,10 +128,10 @@ const AllTask = () => {
                                                 className="btn btn-outline btn-warning"
                                             >Details</button>
                                             <dialog id="my_modal_3" className="modal">
-                                                <div className="modal-box">
+                                                <div className="modal-box border-4 border-[#23e6e6]">
 
                                                     <div className="flex justify-end">
-                                                        <button onClick={() => document.getElementById('my_modal_3').close()} className="btn btn-warning">Close</button>
+                                                        <button onClick={() => document.getElementById('my_modal_3').close()} className="btn bg-[#23e6e6]">Close</button>
                                                     </div>
                                                     {
                                                         data.map((i) => (
